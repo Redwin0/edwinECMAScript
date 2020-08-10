@@ -1,0 +1,6 @@
+<p>edad works!</p>
+<p>Ingresa tu edad:</p>
+<input [(ngModel)]="edad" type="number">
+<div *ngIf="edad && edad!=0">
+    <p>Tu edad es: {{edad}} años</p>
+</div>
